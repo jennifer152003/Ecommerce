@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>FashionFusionOnline</title>
+</head>
+<body>
+    <header>
+        <h1>Desired Fashion.com</h1>
+        <!--<h5 align="right">store address</h5>
+        <p align="right">banjara hills,road no-5<br>hyderabad<br>ranga reddy dist<br>telangana</p>-->
+        <div class="cart" >
+            <img src="data:image/png;base64,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" width="50" height="50">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be added here dynamically using JavaScript -->
+            </ul>
+        </div>
+    </header>
+
+    <div class="product-container">
+        <!-- Product items will be added here dynamically using JavaScript -->
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
